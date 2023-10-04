@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Display numbers from 1 to 100
+    cout << "Numbers from 1 to 100:" << endl;
+    for (int i = 1; i <= 100; ++i) {
+        cout << i << " ";
+    }
+    
+    // Display numbers from 100 to 1
+    cout << "\nNumbers from 100 to 1:" << endl;
+    for (int i = 100; i >= 1; --i) {
+        cout << i << " ";
+    }
+    
+    return 0;
+}
